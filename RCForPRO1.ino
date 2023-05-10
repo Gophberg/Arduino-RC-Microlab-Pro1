@@ -26,20 +26,20 @@ void setup() {
 
 void loop() {
 
-  long SIG_POWER = 0xFF0000
-  long SIG_VOL_DOWN = 0xFF0800
-  long SIG_BAL_RIGHT = 0xFF1000
-  long SIG_INPUT = 0xFF2000
-  long SIG_SUR_DOWN = 0xFF2800
-  long SIG_BAL_LEFT = 0xFF3000
-  long SIG_MUTE = 0xFF4000
-  long SIG_BASS_UP = 0xFF5000
-  long SIG_3D = 0xFF6000
-  long SIG_SUR_UP = 0xFF6800
-  long SIG_BASS_DOWN = 0xFF7000
-  long SIG_VOL_UP = 0xFF8800
-  long SIG_TREB_UP = 0xFF9000
-  long SIG_TREB_DOWN = 0xFFB000
+  long SIG_POWER = 0xFF0000;
+  long SIG_VOL_DOWN = 0xFF0800;
+  long SIG_BAL_RIGHT = 0xFF1000;
+  long SIG_INPUT = 0xFF2000;
+  long SIG_SUR_DOWN = 0xFF2800;
+  long SIG_BAL_LEFT = 0xFF3000;
+  long SIG_MUTE = 0xFF4000;
+  long SIG_BASS_UP = 0xFF5000;
+  long SIG_3D = 0xFF6000;
+  long SIG_SUR_UP = 0xFF6800;
+  long SIG_BASS_DOWN = 0xFF7000;
+  long SIG_VOL_UP = 0xFF8800;
+  long SIG_TREB_UP = 0xFF9000;
+  long SIG_TREB_DOWN = 0xFFB000;
 
   irsend.sendNECMSB(SIG_POWER, 32);
 
